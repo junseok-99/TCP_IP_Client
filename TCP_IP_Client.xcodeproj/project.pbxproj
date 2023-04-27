@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885A62C129FA0BB40089CACA /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885A62C029FA0BB40089CACA /* Client.swift */; };
 		88D1662029DF074E007F0EB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D1661F29DF074E007F0EB4 /* AppDelegate.swift */; };
 		88D1662229DF074E007F0EB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D1662129DF074E007F0EB4 /* SceneDelegate.swift */; };
 		88D1662429DF074E007F0EB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D1662329DF074E007F0EB4 /* ViewController.swift */; };
@@ -16,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		88D1661C29DF074E007F0EB4 /* TCP_IP_Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCP_IP_Client.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		885A62C029FA0BB40089CACA /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		88D1661F29DF074E007F0EB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88D1662129DF074E007F0EB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		88D1662329DF074E007F0EB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		88D1662829DF074F007F0EB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88D1662B29DF074F007F0EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88D1662D29DF074F007F0EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D9956A29DF2655001A0DC4 /* TCP_IP_Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TCP_IP_Client.app; path = "/Users/jangjunseog/Desktop/LAB/IOS/TCP_IP_Client/build/Debug-iphoneos/TCP_IP_Client.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,16 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				88D1661E29DF074E007F0EB4 /* TCP_IP_Client */,
-				88D1661D29DF074E007F0EB4 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		88D1661D29DF074E007F0EB4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				88D1661C29DF074E007F0EB4 /* TCP_IP_Client.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		88D1661E29DF074E007F0EB4 /* TCP_IP_Client */ = {
@@ -63,6 +56,7 @@
 				88D1662829DF074F007F0EB4 /* Assets.xcassets */,
 				88D1662A29DF074F007F0EB4 /* LaunchScreen.storyboard */,
 				88D1662D29DF074F007F0EB4 /* Info.plist */,
+				885A62C029FA0BB40089CACA /* Client.swift */,
 			);
 			path = TCP_IP_Client;
 			sourceTree = "<group>";
@@ -84,7 +78,7 @@
 			);
 			name = TCP_IP_Client;
 			productName = TCP_IP_Client;
-			productReference = 88D1661C29DF074E007F0EB4 /* TCP_IP_Client.app */;
+			productReference = 88D9956A29DF2655001A0DC4 /* TCP_IP_Client.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +105,7 @@
 				Base,
 			);
 			mainGroup = 88D1661329DF074E007F0EB4;
-			productRefGroup = 88D1661D29DF074E007F0EB4 /* Products */;
+			productRefGroup = 88D1661329DF074E007F0EB4;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -140,6 +134,7 @@
 			files = (
 				88D1662429DF074E007F0EB4 /* ViewController.swift in Sources */,
 				88D1662029DF074E007F0EB4 /* AppDelegate.swift in Sources */,
+				885A62C129FA0BB40089CACA /* Client.swift in Sources */,
 				88D1662229DF074E007F0EB4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +290,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +319,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
